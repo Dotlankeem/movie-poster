@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Posters</title>
+</head>
+
+<style>
+    #filmPoster{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+.card img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+</style>
+
+
+<body>
+    <h1>Film Posters</h1>
+
+    <div id="filmPoster">
+        <P> This is the movie</P>
+
+    </div>
+    <br><br> <br>
+    <div id="new-card"></div>
+    
+    
+    
+<script src="/script.js"></script>
+
+
+</body>
+</html>
