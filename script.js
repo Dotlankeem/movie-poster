@@ -79,6 +79,22 @@ const allFilm = [
       "https://th.bing.com/th/id/OIP.Aap5W-0AEnT_tWrwE1eqhAHaHZ?w=184&h=183&c=7&r=0&o=5&pid=1.7",
     year: 2010,
   },
+  {
+    id: 11,
+    title: "Barbie",
+    desc: "James Bond, the leading role player having working for various which turned him to a fugitive and a vagrant person having to made frantic efforts to clean his name ",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjx4y_vebsb6lmVqsue4Ot2VaDvLgObUIfrXCmA_VG&s",
+    year: 2023,
+  },
+  {
+    id: 12,
+    title: "Kandahar",
+    desc: "James Bond, the leading role player having working for various which turned him to a fugitive and a vagrant person having to made frantic efforts to clean his name ",
+    image:
+      "https://cdn.cinematerial.com/p/297x/bujepjj3/kandahar-movie-poster-md.jpg?v=1683659196",
+    year: 2023,
+  },
 ];
 
 const filmcont= document.getElementById("filmPoster");
@@ -91,7 +107,7 @@ const createProduct = () => {
     const card = `
         <div key=${index} class='card'>
             <img src=${value.image} alt=${value.title} class=''/>
-            <button>Play</button>
+            <button class="bintin">Play</button>
             <h1>${value.title}</h1>
              <h5>${value.desc}</h5>
             <p>This is movie ${index}</p>
